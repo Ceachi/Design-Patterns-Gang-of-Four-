@@ -1,0 +1,17 @@
+link: https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
+
+
+Adapter Pattern:
+
+- actioneaza ca un "bridge" intre doua interfete incompatibile
+- acesta combina capabilitatile a doua interfete independente
+
+- Contine o singura clasa, ce poate face "join" la functionalitatile 
+interfentelor independente sau incompatibile.
+
+Exemplu:
+- un card de memorie, ce actioneaza ca un "adaptor" intre memory card si laptop
+
+Un exemplu de Adapter pattern:
+- Ai un audio player ce poate da play la .mp3 si vrea sa foloseasca alte capabilitati ale lui vlc
+sa dea play la mp4

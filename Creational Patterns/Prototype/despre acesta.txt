@@ -1,0 +1,15 @@
+Java: https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+
+Prototype:
+	- este un template al oricarui obiect inainte sa fie construit
+
+- folosit in scenariile cand, aplicatia ta, are nevoie sa creeze un numar
+de insntate a unei clase, ce au aproximativ acelasi "state" sau difera foarte putin
+
+Scenariu:
+Sa zicem ca vreau sa creez instante de tipul:
+	Movie, Album, Show
+(si ele vor fii create de foarte multe ori)
+- nu doresc sa le creez de fiecare data, pt ca va fii costisitor
+- asa ca voi crea niste prototipuri de instante si de fiecare data,
+cand voi avea nevoie de o noua instanta, voi clona acel prototip.

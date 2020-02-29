@@ -1,0 +1,8 @@
+
+- folosit pentru a crea obiecte, fara sa expuna logica 
+de creare a acestuia la client.
+
+- introduce conceptul de "loose coupling" intre clase
+
+- varianta buna este sa folosesti Enum, pentru a specifica tipul
+ce doresti sa il creezi

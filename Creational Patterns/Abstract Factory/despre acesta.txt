@@ -1,0 +1,16 @@
+- este un super-factory(interfata), care creaza alte Factories.
+- nu specifica exact clasele lor
+
+Avantaje:
+
+1. izolarea claselor concrete:
+	- clientii vor manipula instantele prin interfetele abstracte
+
+Dezavantaje:
+
+1. este greu sa le extinzi:
+
+	- de exemplu daca apare un nou produs, e dificil,
+	pentru ca interfata de AbstractFactory fixeaza un set 
+	de produse ce pot fii create.
+

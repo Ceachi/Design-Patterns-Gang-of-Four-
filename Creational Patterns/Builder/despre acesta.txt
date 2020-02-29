@@ -1,0 +1,17 @@
+
+- construieste un obiect complex folosind alte obiecte mai simple, pas cu pas.
+
+- This should be used only when you want to build different immutable 
+  objects using same object building process.
+
+- The only big difference between this builder pattern and abstract factory pattern is that, 
+builder provides you more control over the object creation process and that’s it.
+Apart from it, there are no major differences.
+
+
+Costs and Disadvantages of Builder Pattern
+Though Builder pattern reduce some line of code buy eliminating the need of setter methods, still in double up total lines by introducing the Builder object. Furthermore, although client code is more readable, the client code is also more verbose. Though for me, readability weighs more than lines of code.
+
+That’s only disadvantage I can think of.
+
+That’s all for this topic. I will be happy if you share your thoughts as well.
